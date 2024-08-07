@@ -1,0 +1,101 @@
+body {
+  max-width: 500px;
+  margin: auto;
+  padding: 70px;
+  text-align: center;
+  font-family: "Advent Pro", sans-serif;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.login,
+.registtop{
+  color: #3d3d3d;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  text-decoration: none;
+  
+}
+
+.registtop{
+  color: #46a358;
+}
+
+.division{
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  background-color: #ccc;
+
+}
+
+.enter{
+  margin: 10px;
+  color: #3d3d3d;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.input,
+.register,
+.web {
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.input{
+  height: 40px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid #eaeaea;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.register{
+  height: 45px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #46a358;
+  color: #fff;
+  cursor: pointer;
+}
+
+.register_with{
+  font-weight: 400;
+  color: #3d3d3d;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.web{
+  height: 40px;
+  margin: 7px;
+padding: 10px;
+border: 1px solid #eaeaea;
+border-radius: 5px;
+background-color: #fff;
+color: #727272;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+}
+
+.web img{
+  margin-right: 10px;
+  height: 20px;
+  vertical-align: middle;
+}
