@@ -1,0 +1,89 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px 120px;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+    position:relative;
+    height: 100%;
+
+}
+
+header {
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.logo {
+    height: 34.4px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 17.7px;
+    
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    right: 0px;
+    bottom: 8px;
+
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul li {
+   display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+nav ul li a:hover {
+    font-weight: bold; 
+}
+nav ul li a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(70, 163, 88, 1);
+}
+
+
+.login-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    background-color: #46a358;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn img{
+    margin-right: 3px;
+}
+.login-btn:hover {
+    background-color: #46a358;
+
+}
