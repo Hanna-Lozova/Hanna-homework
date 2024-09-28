@@ -3,24 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
     <title>Greenshop</title>
 </head>
 
 <body>
+
     <header class="header">
         <div class="flex-container">
             <div class="logo">
                 <img src="./img/logo.svg" alt="logo" class="logo-img">     
             </div>
+
+
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Plant Care</a></li>
+                    <li class="nav-item dropdown-container">
+                        <a href="#" class="nav-link">Plant Care</a>
+                        <span class="green-line"></span>
+                        <ul class="dropdown-list">
+                            <li class="dropdown-item"><a href="#">Drainage</a></li>
+                            <li class="dropdown-item"><a href="#">Fungicides</a></li>
+                            <li class="dropdown-item"><a href="#">Fertilizer</a></li>
+                            <li class="dropdown-item priming">
+                                <a href="#">Priming <span class="arrow">&lt;</span></a>
+                                <ul class="double-dropdown">
+                                    <li class="double-li"><a href="#">Universal</a></li>
+                                    <li class="double-li"><a href="#">For Ficus</a></li>
+                                    <li class="double-li"><a href="#">For Cacti</a></li>
+                                    <li class="double-li"><a href="#">For Citrus</a></li>
+                                    <li class="double-li"><a href="#">For those in bloom</a></li>
+                                    <li class="double-li"><a href="#">For Orchids</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a href="#" class="nav-link">Blogs</a></li>
                 </ul>
+            
             </nav>
 
             <div class="right-icons">
@@ -41,6 +67,9 @@
             </div> 
         </div>
     </header>
+
+
+
 
     <section class="main-banner">
         <div class="banner-content">
