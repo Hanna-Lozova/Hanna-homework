@@ -52,14 +52,13 @@ body.loaded #preloader {
     }
 }
 
-/* Прячем основной контент при загрузке страницы */
 body:not(.loaded) .main-content-container, 
 body:not(.loaded) .footer {
     opacity: 0;
     visibility: hidden;
 }
 
-/* Основные стили для видимости контента после загрузки */
+
 body {
     visibility: hidden;
     opacity: 0;
@@ -71,7 +70,6 @@ body.loaded {
     transition: opacity 1s ease-in;
 }
 
-/* Остальные стили для вашего сайта (взяты из вашего предыдущего кода) */
 body {
     font-family: 'Cera Pro', sans-serif;
     font-weight: normal;
@@ -924,9 +922,6 @@ margin: 35px 18px;
         margin-bottom: 19px;
     
     }
-
-
-
 
 
 
