@@ -79,7 +79,10 @@ body {
     max-width: 1200px;
 }
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     font-family: 'Cera Pro', sans-serif;
@@ -672,11 +675,13 @@ input {
     gap: 20px;
     width: 100%;
     padding: 20px 0;
-    max-width: 1200px;
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0 auto;
     align-items: flex-start;
   
 }
+
 
 /* Sidebar */
 
